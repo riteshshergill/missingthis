@@ -1,0 +1,62 @@
+.headerFont {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.header {
+    background-image: url('../../public/assets/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg');
+    opacity: 0.9;
+    border-radius: 2px;
+    padding: 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    
+}
+
+.header img {
+    height: 200px;
+    object-fit: contain;
+    padding: 20px;
+    background-color: #ccffff;
+
+    font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 1rem;
+
+    border-image: linear-gradient(45deg, red, yellow) 1;
+
+    border-style: ridge;
+
+    border-radius: 15px 50px;
+
+    margin: 10px;
+}
+
+.mid-border {
+    border: 6px solid #FFFFFF;
+    height: 100%;
+    width: 30%;
+    padding: 0px;
+    margin: auto;
+    border-radius: 5px;
+    border-style: ridge;
+    background-image: url(../../public/assets/pexels-engin-akyurt-11871840.jpg);
+    z-index: 5;
+}
+
+.inner-border {
+	position: relative;
+	border: 2px solid #FFFFFF;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-style: dashed;
+}
