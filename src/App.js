@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
 import RandomThoughts from './components/RandomThoughts';
+import ToysSection from './components/ToysSection';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <RandomThoughts/>
       <Content/>
+      <ToysSection/>
       <Footer/>
 
     </div>

@@ -1,12 +1,11 @@
 .contentBody {
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 30px;
     color: #FFFFFF;
     align-items: center;
     justify-content: center;
     display: flex;
     z-index: 2;
-    margin-left:5%
 }
 
 .carouselExtensions {

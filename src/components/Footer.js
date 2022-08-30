@@ -13,7 +13,8 @@ function Footer() {
       <br/>
       <p>Photo by Erik Schereder: https://www.pexels.com/photo/green-and-black-sky-during-night-time-5675754/</p>
       <p>Photo by Engin Akyurt: https://www.pexels.com/photo/macro-shoot-of-canvas-fabric-texture-11871840/</p>
-        
+      <p>Photo by Engin Akyurt: https://www.pexels.com/photo/macro-shoot-of-canvas-fabric-texture-11871840/</p>
+      <p className="textFont">Powered by React 18 &#169; Ritesh Shergill 2022</p>
       </div>
 
       

@@ -35,10 +35,13 @@ function RandomThoughts() {
             </div>
             <div className="row-sm">
               <div id="margin">
-                Title: <input id="title" type="text" name="title" className="titleText" onChange={handleTitleValueUpdated}/></div>
-		            <textarea placeholder="What's on your mind?" id="text" name="text" rows="4" className="textPad" onChange={handleRandomThoughtsValueUpdated}></textarea>  
+                Title: <input id="title" type="text" name="title" className="titleText" value="Remember the good times?"/></div>
+		            <textarea id="text" name="text" rows="4" className="textPad" onChange={handleRandomThoughtsValueUpdated}
+                 value="Used to be a time when times were simpler. Movies were badass.. toys were meant to be played with outside. Shows didn't have any hidden agendas or political views to shove down out throats.">
+                  
+                </textarea>  
 		            <br/>
-		            <input id="button" type="submit" value="Create"></input>
+		            {/* <input id="button" type="submit" value="Create"></input> */}
 
               </div>
             </div>
