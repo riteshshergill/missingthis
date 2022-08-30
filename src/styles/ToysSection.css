@@ -1,0 +1,20 @@
+.toysSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height:200px;
+    
+}
+
+.margin-top {
+    margin-top: 900px;
+}
+
+.margin-row {
+    margin-top: 200px;
+}
+
+.toysSection img {
+    height:300px;
+    width:210px;
+}
